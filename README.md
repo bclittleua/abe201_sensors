@@ -14,9 +14,9 @@ Sensor Package Requires:
 
 See ABE201_group_lab.PDF for detailed instructions, but note that steps to import ADS/DHT libraries are not included, see below.
 
-==================================
+
 INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
-==================================
+
 Wiring: ADC --> Cobbler 
 Datasheet: https://cdn-shop.adafruit.com/datasheets/ads1115.pdf 
 The RPi is not capable of reading analog values. The ADC module reads the analog signal and converts into a digital value the RPi can read. 
@@ -27,7 +27,7 @@ The RPi is not capable of reading analog values. The ADC module reads the analog
 •	A0 - 
 •	A1- • A2 - 
 •	A3 - TGS2600 A0 
-==================================
+
 
 WIRING: DHT11 
 Datasheet: http://www.micropik.com/PDF/dht11.pdf 
@@ -35,7 +35,7 @@ Measures temperature and humidity with a fair amount of accuracy (the DHT22 is m
 •	VCC - 3v3 (either pin 1 of cobbler or VCC of ADC), bridge to DATA w/ 10k resistor 
 •	DATA - pin 7 (GPIO 4) cobbler, bridge to VCC w/ 10k resistor 
 •	GND -  GND (any) 
-==================================
+
  
 WIRING: TGS2600 
 Datasheet: http://www.figarosensor.com/products/2600pdf.pdf 
@@ -44,7 +44,6 @@ Detects Carbon Monoxide, Hydrogen, Methane (CH4), Ethanol, and Iso-butane by mea
 •	AO - a3 of ADC 
 •	DO - not used 
 •	V - 5v, pin 2 or 4 of cobbler 
-==================================
 
 WIRING: LDR (bipolar, pick a leg) 
 Datasheet: http://kennarar.vma.is/thor/v2011/vgr402/ldr.pdf 
