@@ -5,7 +5,7 @@ cpu = CPUTemperature()
 
 def write_temp(temp):
 	with open("cputemp", "a") as log:
-		log.write("{0},{1}\n".format(starftime("%Y-%m-%d %H:%<:%S"),str(temp)))
+		log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%<:%S"),str(temp)))
 		
 while True:
 	temp = cpu.temperature
