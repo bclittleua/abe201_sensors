@@ -38,7 +38,7 @@ From the command line and home directory (i.e. /home/pi):
 
 •	in BOTH the ADS1x15 and DHT directories (i.e. /home/pi/DHT & /home/pi/ADS1x15):
 
- o	sudo python setup.py install
+     o	sudo python setup.py install
 
 --
 
