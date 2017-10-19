@@ -28,6 +28,18 @@ See ABE201_group_lab.PDF for detailed instructions, but note that steps to impor
 
 INSTRUCTIONS TO IMPORT SENSOR LIBRARIES:
 
+From the command line and home directory (i.e. /home/pi):
+
+•	sudo apt-get install build-essential python-dev
+
+•	sudo git clone https://github.com/bclittleua/ADS1x15.git
+
+•	sudo git clone https://github.com/bclittleua/DHT.git
+
+•	in BOTH the ADS1x15 and DHT directories (i.e. /home/pi/DHT & /home/pi/ADS1x15):
+
+ o	sudo python setup.py install
+
 --
 
 INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
