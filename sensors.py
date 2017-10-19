@@ -70,4 +70,4 @@ while True:
         slog.close()
 
         #time.sleep(delay)
-		break
+	break
