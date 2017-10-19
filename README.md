@@ -44,7 +44,8 @@ From the command line and home directory (i.e. /home/pi):
 
 # INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
 
-Wiring: ADC to Cobbler 
+Wiring: ADC to Cobbler
+
 Datasheet: https://cdn-shop.adafruit.com/datasheets/ads1115.pdf 
 
 The RPi is not capable of reading analog values. The ADC module reads the analog signal and converts into a digital value the RPi can read. 
@@ -68,6 +69,7 @@ The RPi is not capable of reading analog values. The ADC module reads the analog
 --
 
 WIRING: DHT11 
+
 Datasheet: http://www.micropik.com/PDF/dht11.pdf 
 
 Measures temperature and humidity with a fair amount of accuracy (the DHT22 is more accurate, and other models include additional environmental sensors, such as barometric pressure). 
@@ -80,7 +82,8 @@ Measures temperature and humidity with a fair amount of accuracy (the DHT22 is m
 
 --
 
-WIRING: TGS2600 
+WIRING: TGS2600
+
 Datasheet: http://www.figarosensor.com/products/2600pdf.pdf 
 
 Detects Carbon Monoxide, Hydrogen, Methane (CH4), Ethanol, and Iso-butane by measuring electrical conductivity across a built-in heating element. It only spits out one number, which can be interpreted as parts per million. Review datasheet for more details. 
@@ -96,6 +99,7 @@ Detects Carbon Monoxide, Hydrogen, Methane (CH4), Ethanol, and Iso-butane by mea
 --
 
 WIRING: LDR (bipolar, pick a leg) 
+
 Datasheet: http://kennarar.vma.is/thor/v2011/vgr402/ldr.pdf 
 
 This sensor works by reading the voltage built up in the capacitor rather than by measuring resistance directly. 
