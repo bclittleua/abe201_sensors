@@ -26,7 +26,7 @@ See ABE201_group_lab.PDF for detailed instructions, but note that steps to impor
 
 --
 
-#INSTRUCTIONS TO IMPORT SENSOR LIBRARIES:
+# INSTRUCTIONS TO IMPORT SENSOR LIBRARIES:
 
 From the command line and home directory (i.e. /home/pi):
 
@@ -42,7 +42,7 @@ From the command line and home directory (i.e. /home/pi):
 
 --
 
-#INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
+# INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
 
 Wiring: ADC to Cobbler 
 Datasheet: https://cdn-shop.adafruit.com/datasheets/ads1115.pdf 
