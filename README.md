@@ -20,11 +20,19 @@ Wiring: ADC to Cobbler
 Datasheet: https://cdn-shop.adafruit.com/datasheets/ads1115.pdf 
 The RPi is not capable of reading analog values. The ADC module reads the analog signal and converts into a digital value the RPi can read. 
 •	VDD - 3.3v pin 1 
+
 •	GND - GND (any) 
+
 •	SCL - SCL pin 5 
+
 •	SDA - SDA pin 3  
+
 •	A0 - 
-•	A1- • A2 - 
+
+•	A1- 
+
+• A2 - 
+
 •	A3 - TGS2600 A0 
 
 
