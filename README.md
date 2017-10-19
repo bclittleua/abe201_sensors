@@ -26,6 +26,10 @@ See ABE201_group_lab.PDF for detailed instructions, but note that steps to impor
 
 --
 
+INSTRUCTIONS TO IMPORT SENSOR LIBRARIES:
+
+--
+
 INSTRUCTIONS FOR CIRCUIT ASSEMBLY:
 
 Wiring: ADC to Cobbler 
