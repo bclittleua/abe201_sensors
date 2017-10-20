@@ -6,5 +6,5 @@ cpuTemp2=$(($cpuTemp0/100))
 cpuTempM=$(($cpuTemp2 % $cpuTemp1))
 date
 echo $cpuTemp1.$cpuTempM
-echo $cpuTemp1.$cpuTempM * 1.8 + 32 | bc
+echo $cpuTemp1.$cpuTempM *1.8+32 | bc
 ) &>> templog
