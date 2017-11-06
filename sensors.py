@@ -12,6 +12,7 @@ import Adafruit_ADS1x15
 DEBUG = 1
 GPIO.setmode(GPIO.BCM)
 
+#LDR setup
 def RCtime (RCpin):
         reading = 0
         GPIO.setup(RCpin, GPIO.OUT)
@@ -23,6 +24,7 @@ def RCtime (RCpin):
         while (GPIO.input(RCpin) == GPIO.LOW):
                 reading += 1
         return reading
+#END LDR setup
 
 now = datetime.datetime.now()
 
